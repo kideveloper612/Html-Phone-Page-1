@@ -22,6 +22,10 @@
        
         var city = getURLParameter('city');
 
+        // Manually Add City
+        city = 'Roma';
+        var cityCode = 'RM';
+
 
 
     </script>
@@ -73,7 +77,7 @@
 
          <h3 class=" mb-0 get purchase">Stiamo Aprendo un nuovo Apple Store a <script>document.write(city);</script> e per festeggiare l’inaugurazione stiamo organizzando un fantastico regalo per i primi clienti</h3>
         <strong><h3 class="mb-0 purchase">Usa il codice qui sotto per ricevere il tuo Regalo</h3></strong>
-        <p class="copen">Apple-0303-<script>document.write(city);</script></p>
+        <p class="copen">Apple-0303-<script>document.write(cityCode);</script></p>
         <button class="btn buton-large claim">Ricevi Gratuitamente un Dispositivo</button>
       </div>
 
