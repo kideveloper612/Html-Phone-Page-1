@@ -10,7 +10,7 @@
     padding-top: 23px;
     position: absolute;
     top: 13%;
-    left: 25%;
+    left: 10%;
     background-size: 100%;
     background-image: url(../img/sun.png);
     background-repeat: no-repeat;
@@ -255,7 +255,6 @@ button{
     display: flex;
     justify-content: center;
     position:relative;
-    padding: 7%;
     padding-bottom: 0px;
     background: linear-gradient(180deg, #e6e6e6 92%, #d0cdcd 93%, #ffffff 94%); 
     border-top-left-radius: 40px;  
@@ -266,12 +265,9 @@ button{
 }
 
 img.banner-img {
-    max-width: 396px;
-    margin-left: -23px;
-    margin-top: -23px;
-    border-top-left-radius: 18px;
-    border-top-right-radius: 18px;
-    width: 327px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    width: 100%;
 }
 
 img.toplogo {
@@ -532,6 +528,11 @@ img.visa {
 }
 .custom-card-top {
  
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+
+img.banner-img {
     border-top-left-radius: 18px;
     border-top-right-radius: 18px;
 }
