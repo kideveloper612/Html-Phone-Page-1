@@ -808,3 +808,7 @@ h1.mb-0.price {
 @media screen and (max-width: 320px) {
 
 }
+
+.banner-img {
+    object-fit: cover;
+}
